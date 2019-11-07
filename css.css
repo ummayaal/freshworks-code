@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+.body {
+  display: flex;
+
+  height: 100vh;
+  width: 100vw;
+}
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+  font-family: "Roboto Condensed";
+  background-color:#0041c2;
+}
+
+.tfbutton {
+  padding: 7px 20px;
+  font-size: 16px;
+  color: #fff;
+  background: black;
+}
+
+#main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+  background-color: #222;
+}
+
+img {
+  width: 250px;
+height:400px;
+  cursor: pointer;
+  border-style: inset;
+  margin-top: 0%;
+}
+
+.plot-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: 500;
+  text-align:left;
+  
+}
+
+.content {
+  text-align: center;
+  font-size: 18px;
+}
+
+p {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  color: white;
+  text-shadow: 2px 2px 5px white;
+}
+
+
+.movieWrapper {
+  display: flex;
+  margin: 30px;
+  flex-direction: column;
+  width: 200px;
+}
+
+
+/* second assignment */
+
+.assignment-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(to left, rgba(255,0,0,0), rgb(100,149,237));
+  
+}
+.box {
+  display: flex;
+  flex-direction: row;
+  width: 600px;
+  padding: 30px;
+  /* margin: 0 auto; */
+  -webkit-box-shadow: 0px 5px 10px 4px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 5px 10px 4px rgba(0, 0, 0, 0.2);
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgb(255,182,193));
+  border-top-style: dotted;
+  border-right-style: solid;
+  border-bottom-style: dotted;
+  border-left-style: solid;
+  border-radius: 15px;
+}
+
+.right-side {
+  margin-left: 20px;
+}
+
+.right-side #title {
+  font-weight: 700px;
+  font-size: 24px;
+}
+
+.light-font {
+  font-size: 16px;
+  color: #808080;
+  display: flex;
+  flex-direction: row;
+}
+
+.right-side #content {
+  font-size: 18px;
+  margin: 20px 0;
+}
+
+.bar {
+  margin: 0 10px;
+}
+
+#genre {
+  padding: 6px 10px;
+  text-shadow: 2px 2px red;
+  color: #222;
+  display: inline-block;
+  border-radius: 8px;
+  margin: 10px 0;
+}
+
+.heading {
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.heading #rating {
+  margin-left: 5px;
+  font-weight: 400;
+}
